@@ -2,3 +2,35 @@ body {
     background-color: aquamarine;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.wholeWeb {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.header {
+    height: 60px;
+    border: 1px blue solid;
+    font-size: 24px;
+}
+
+.nav {
+    height: 120px;
+    border: 1px blue solid;
+
+}
+
+.navList {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.container {}
+
+.article {}
+
+.calculator {}
+
+.photo {}
+
+
