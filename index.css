@@ -1,23 +1,73 @@
 body {
-    background-color: aquamarine;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.main {
+    width: 100%;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+  
+  }
+  
+  .box {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+  
+  .red {
+    background-color: red;
+    grid-column: 1 / 4; 
+      grid-row: 1;
+  }
+  
+  .yellow {
+    grid-column: 1;
+      grid-row: 2;
+    background-color: yellow;
+  }
+  
+  .orange {
+    grid-column: 2;
+      grid-row: 2;
+    background-color: orange;
+  }
+  
+  .green {
+    background-color: green;
+    grid-column: 3;
+      grid-row: 2;
+  }
+  
+  .pink {
+    background-color: pink;
+    grid-column: 1 / 4;
+      grid-row: 3;
+    height: 30px;
+  }
+  
+  
+
 .wholeWeb {
-    border: 1px black solid;
     padding: 10px;
 }
 
 .header {
     height: 60px;
-    border: 1px blue solid;
     font-size: 24px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.Headertitle {
+    align-self: center;
+    margin-top: 10px;
 }
 
 .nav {
-    height: 120px;
-    border: 1px blue solid;
-
+    height: 140px;
+    width: 150px
 }
 
 .navList {
@@ -27,7 +77,9 @@ body {
 
 .container {}
 
-.article {}
+.article {
+
+}
 
 .calculator {}
 
