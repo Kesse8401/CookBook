@@ -1,0 +1,19 @@
+{
+  "name": "cookbook",
+  "version": "1.0.0",
+  "description": "My recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kesse8401/CookBook.git"
+  },
+  "author": "Agnes PN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kesse8401/CookBook/issues"
+  },
+  "homepage": "https://github.com/Kesse8401/CookBook#readme"
+}
