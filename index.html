@@ -1,49 +1,171 @@
 <!DOCTYPE html>
 <html>
-<title>The Cook Book</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link type="text/css" rel="stylesheet" href="index.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<head>
+    <title>The Cook Book</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
 
 <body>
-        <div id="grid">
-          <div class="box red">
-            <div class="header">
-                  <header>The Virtual Cook Book</header>
-              </div>
-          </div>
-          <div class="box yellow">
-            <div class="nav">
-                  <nav>
-                      <div class="navList">  
-                          <a href="Dinners.html" target="_blank" class="navList">Dinners</a><br>
-                          <a href="Starters.html" target="_blank" class="navList">Starters</a><br>
-                          <a href="Soups.html" target="_blank" class="navList">Soups</a><br>
-                          <a href="Desserts.html" target="_blank" class="navList">Desserts</a><br>
-                          <a href="Salads.html" target="_blank" class="navList">Salads</a><br>
-                     
-                      </div>
-      
-                  </nav>
-              </div></div>
-          <div class="box orange">
-            
-           <div class="article">
-                      <article>
-                          <section class="calculator"></section>
-                      </article>
-                  </div>
-          
-          </div>
-          <div class="box green">
-            <aside class="photo"></aside>
-          </div>
-          <div class="box pink"></div>
-      
+    <div id="grid">
+        <div class="red">
+            <header class="header">The Virtual Cook Book</header>
+            <img class="headerPhoto" src="images/spoons2.png" width="" height=""></img>
         </div>
-      </body>
-        
-      </div>
+
+        <div class="yellow">
+
+            <button class="collapsible">Starters</button>
+            <div class="content">
+                <ul style="list-style-type:none">
+                    <li>Garlic Roll</li>
+                    <li>Cheese Croquets</li>
+                    <li>
+                        <a href="starters/pieczarki.html" target="_blank">Champignone De Paris</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Soups</button>
+            <div class="content">
+                <ul style="list-style-type:none">
+                    <li>Asparagus Cream</li>
+                    <li>Domoda</li>
+                    <li>Norwegian Chowder</li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Dinners</button>
+            <div class="content">
+                <ul style="list-style-type:none">
+                    <li>Chilli</li>
+                    <li>Spinach pasta</li>
+                    <li>Norwegian Chowder</li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Desserts</button>
+            <div class="content">
+                <ul style="list-style-type:none">
+                    <li>Yam Pie</li>
+                    <li>Babka</li>
+                    <li>Tort</li>
+                </ul>
+            </div>
+
+            <button class="collapsible">Sides</button>
+            <div class="content">
+                <ul style="list-style-type:none">
+                    <li>Egg fried Rice</li>
+                    <li>Courgette fries</li>
+                    <li>Puree</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="orange" id="recipe">
+
+            <div class="article">
+                <h2>Title of the Recipe</h2>
+                <p class="ingredients">
+                    <table>
+                        <tr>
+                            <th class="IngredientsWidth">Ingredients</th>
+                            <th>Pieces</th>
+                            <th>Metric</th>
+                            <th>US</th>
+                        </tr>
+                        <tr>
+                            <td class="IngredientsWidth">Ingedient</td>
+                            <td>1</td>
+                            <td>0 gr</td>
+                            <td>0 cup</td>
+                        </tr>
+                        <tr>
+                            <td class="IngredientsWidth">Ingedient</td>
+                            <td>1</td>
+                            <td>0 gr</td>
+                            <td>0 cup</td>
+                        </tr>
+                        <tr>
+                            <td class="IngredientsWidth">Ingedient</td>
+                            <td>1</td>
+                            <td>0 gr</td>
+                            <td>0 cup</td>
+                        </tr>
+                        <tr>
+                            <td class="IngredientsWidth">Ingedient</td>
+                            <td>1</td>
+                            <td>0 gr</td>
+                            <td>0 cup</td>
+                        </tr>
+                        <tr>
+                            <td class="IngredientsWidth">Ingedient</td>
+                            <td>1</td>
+                            <td>0 gr</td>
+                            <td>0 cup</td>
+                        </tr>
+                        <tr>
+                            <td class="IngredientsWidth">Ingedient</td>
+                            <td>1</td>
+                            <td>0 gr</td>
+                            <td>0 cup</td>
+                        </tr>
+                    </table>
+                </p>
+                <p class="optionally">Optionally: something and something</p>
+                <h2>Instructions</h2>
+                <table>
+                    <tr>
+                        <td class="noOfTask">1.</td>
+                        <td class="task">Task</td>
+                    </tr>
+                    <tr>
+                        <td class="noOfTask">2.</td>
+                        <td class="task">Task</td>
+                    </tr>
+                    <tr>
+                        <td class="noOfTask">3.</td>
+                        <td class="task">Task</td>
+                    </tr>
+                    <tr>
+                        <td class="noOfTask">4.</td>
+                        <td class="task">Task</td>
+                    </tr>
+
+                </table>
+                <br>
+                <table>
+                    <tr>
+                        <th>Cooking</th>
+                        <th>Time</th>
+                        <th>Temperature &#8451</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>0 min</td>
+                        <td>0 &#8451</td>
+                    </tr>
+
+
+                </table>
+
+            </div>
+            <div class="photoFood"></div>
+
+        </div>
+        <div class="green">
+            <img src="images/Fajitas.jpg" width="550" height="800"></img>
+        </div>
+        <div class="pink"></div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
 
 </html>

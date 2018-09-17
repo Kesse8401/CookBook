@@ -7,7 +7,8 @@ This project has two purposes:
 #PROJECT FEATURES#
 
 1. Neat web sturcture.
-2. Several pages, each page one recipe.
-3. Nice css layout.
-4. Measurment calculator cups to gr and ml.
-5. On home page random recipe will display and change after 15 sec.
+2. Colapsable menu with type of dishes and name od dished.
+3. Each recipe link to it's name and displaying next to it.
+4. Each recipe with assigned picture that would display next to it.
+5. Nice css layout.
+6. Measurment calculator cups to gr and ml.

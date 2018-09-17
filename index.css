@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.605);
 }
 
 .main {
@@ -8,56 +9,65 @@ body {
   
   #grid {
     display: grid;
-    grid-template-columns: 200px 1fr 200px;
-  
-  }
-  
-  .box {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    grid-template-columns: 250px 1fr 550px;
   }
   
   .red {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.105);
     grid-column: 1 / 4; 
-      grid-row: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
   }
   
   .yellow {
     grid-column: 1;
-      grid-row: 2;
-    background-color: yellow;
+    grid-row: 2;
+    background-color: rgba(255, 255, 0, 0.283);
+    height: 800px;
+    font-size: 18px;
   }
   
   .orange {
     grid-column: 2;
-      grid-row: 2;
-    background-color: orange;
+    grid-row: 2;
+    background-color: rgba(255, 166, 0, 0.173);
+    height: 800px;
+
   }
   
   .green {
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.18);
     grid-column: 3;
-      grid-row: 2;
+    grid-row: 2;
+    height: 800px;
+
   }
   
   .pink {
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.297);
     grid-column: 1 / 4;
-      grid-row: 3;
+    grid-row: 3;
     height: 30px;
   }
   
   
-
 .wholeWeb {
     padding: 10px;
 }
 
 .header {
-    height: 60px;
-    font-size: 24px;
+    height: 80px;
+    font-size: 30px;
     padding-top: 20px;
     padding-left: 10px;
+    font-weight: 900;
+}
+
+.headerPhoto {
+    height: 70px;
+    float: right;
+    width: 350px;
 }
 
 .Headertitle {
@@ -65,24 +75,93 @@ body {
     margin-top: 10px;
 }
 
-.nav {
-    height: 140px;
-    width: 150px
-}
 
-.navList {
-    margin-top: 10px;
-    padding: 5px;
-}
+.collapsible {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+ }
 
-.container {}
+ ul, li {
+   font-size: 15px;
+ }
+ 
+ .active, .collapsible:hover {
+    background-color: rgb(213, 213, 213);
+ }
+ 
+ .content {
+    padding: 0 10px;
+    display: none;
+    overflow: hidden;
+ }
+
+ h2 {
+   margin-top: 5px;
+ }
+
+a,
+a:visited{
+    color:rgba(0, 0, 0, 0.605);
+  }
 
 .article {
-
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
 }
 
-.calculator {}
 
-.photo {}
+
+table, tr, td, th {
+  border: 1px solid rgba(148, 147, 147, 0.242);
+}
+
+tr{
+  font-size: 16px;
+}
+
+td{
+  font-size: 16px;
+  text-align: right;
+}
+
+th {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.IngredientsWidth {
+  width: 170px;
+  text-align: left;
+}
+
+.optionally {
+  font-size: 16px;        /* Why doesn't it work? */
+}
+
+.noOfTask {
+  width: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.task {
+  width: 700px;
+  text-align: left;
+}
+
+.photoFood {
+  position: fixed; /* or absolute */
+  top: 0%;
+  right: 0%;
+}
+
+
+
 
 
